@@ -1,0 +1,153 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2944909311" file="C:\autoMRIMonthQA\CompileProject\autoMonthlyMRIQAMain.prj" location="C:\autoMRIMonthQA\CompileProject" name="autoMonthlyMRIQAMain" preferred-package-location="C:\autoMRIMonthQA\CompileProject\autoMonthlyMRIQAMain\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>autoMonthlyMRIQAMain</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>AX</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\autoMonthlyMRIQAMain\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>C:\autoMRIMonthQA\MainProgramMO\MainProgram\autoMonthlyMRIQAMain.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\image extractor lib\findCellStringIndex.m</file>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\image extractor lib\fun_apply_mask.m</file>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\image extractor lib\fun_DICOMInfoAccess.m</file>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\image extractor lib\getEachSliceTimeStamp.m</file>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\iniconfig\IniConfig.m</file>
+      <file>C:\AitangResearch\inHouseSoftWare\autoMRISimDailyQARadiomics\pre process lib\sortImagesIntoDictFileList.m</file>
+      <file>C:\autoMRIMonthQA\ConfigLibMO\ConfigLib\IniConfig.m</file>
+      <file>C:\autoMRIMonthQA\ConfigLibMO\ConfigLib\readConfigFileMO.m</file>
+      <file>C:\autoMRIMonthQA\ConfigLibMO\ConfigLib\readMainConfigFileMO.m</file>
+      <file>C:\autoMRIMonthQA\ExcelLibMO\TXTLibMO\writeDailyQAToTxtMO.m</file>
+      <file>C:\autoMRIMonthQA\ExcelLibMO\TXTLibMO\writeMonthlyQAToTxtUniqueMO.m</file>
+      <file>C:\autoMRIMonthQA\MainLibMO\AutoProcessorLib\autoMonthlyQAProcessorSingleConfigFileMO.m</file>
+      <file>C:\autoMRIMonthQA\MainLibMO\AutoProcessorLib\MonthlyQA.m</file>
+      <file>C:\autoMRIMonthQA\PreprocessLibMO\PreProcessLib\findCellStringIndex.m</file>
+      <file>C:\autoMRIMonthQA\PreprocessLibMO\PreProcessLib\fun_apply_mask.m</file>
+      <file>C:\autoMRIMonthQA\PreprocessLibMO\PreProcessLib\fun_DICOMInfoAccess.m</file>
+      <file>C:\autoMRIMonthQA\PreprocessLibMO\PreProcessLib\getEachSliceTimeStamp.m</file>
+      <file>C:\autoMRIMonthQA\PreprocessLibMO\PreProcessLib\sortImagesIntoDictFileList.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\findCenterSliceMO.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\getImageCenterMO.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\getMonthlyQAResultsFileListLaserOperatorMO.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\getOutPutMO.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\getSNRGhostingMO.m</file>
+      <file>C:\autoMRIMonthQA\QAParameterExttractLibMO\QAParameterExtractLib\getUniformityMO.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_testing" name="autoMonthlyMRIQAMain.exe" optional="false">C:\autoMRIMonthQA\CompileProject\autoMonthlyMRIQAMain\for_testing\autoMonthlyMRIQAMain.exe</file>
+      <file location="${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_testing" name="splash.png" optional="false">C:\autoMRIMonthQA\CompileProject\autoMonthlyMRIQAMain\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\autoMonthlyMRIQAMain\for_testing" name="readme.txt" optional="true">C:\autoMRIMonthQA\CompileProject\autoMonthlyMRIQAMain\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

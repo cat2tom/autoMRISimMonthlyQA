@@ -1,0 +1,2 @@
+DateTime,SNR,Uniformity,Ghosting,Diameter,Output,Operator
+20170327.125106,5.191,95.163,0.0321,200,14.767,Physicist
